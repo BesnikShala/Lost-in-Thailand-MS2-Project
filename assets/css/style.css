@@ -9,13 +9,13 @@ html, body {
 }
 
 .banner-image {
-    background-image:url('fishtale-boat.jpeg');
+    background-image:url(/assets/images/fishtale-boat.jpeg);
     background-size: cover;
-
-
 }
 
-.options {
+.catagory-option {
     display: flex;
     justify-content: space-around;
+    background-color: beige;
 }
+
