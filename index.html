@@ -55,17 +55,17 @@
 
     <!-- Nav Bar for temples, beaches and Activities -->
     <section>
-        <div class="catagory-option container">
-            <div class="options temples ">
+        <div class="catagory-option container" >
+            <div class="options temples" onclick="showInfo(0)">
                 <h2>Temples</h1>
             </div>
-            <div class="options beaches">
-                <div>
+            <div class="options beaches" >
+                <div onclick="showInfo(1)">
                     <h2>Beaches</h1>
                 </div>
             </div>
             <div class="options activities">
-                <div>
+                <div onclick="showInfo(2)">
                     <h2>Activities</h1>
                 </div>
             </div>
@@ -74,34 +74,56 @@
     </div>
     
     <div class="container">
-        <div class="info-img row">
-            <img  src="assets/images/Emerald-Buddha.jpeg">
-        </div>
-        <div>
-            <h2>The Emerald Buddah</h2>
-            <p>he Emerald Buddha, or Phra Kaeo Morakot (พระแก้วมรกต), formally named Phra Phuttha Maha Mani Rattana
-                Patimakon (พระพุทธมหามณีรัตนปฏิมากร), is the temple's main Buddha image as well as its namesake. The
-                sacred image is of the meditating Gautama Buddha seated in the lotus position, made of a semi-precious
-                green stone (usually described as jade), clothed in gold,[18] and about 66 centimetres (26 in)
-                tall.[19][5]
-            </p>
+        <div class="info">
+            <div class="info-img row">
+                <img src="assets/images/Emerald-Buddha.jpeg">
+            </div>
+            <div>
+                <h2>The Emerald Buddah</h2>
+                <p>he Emerald Buddha, or Phra Kaeo Morakot (พระแก้วมรกต), formally named Phra Phuttha Maha Mani Rattana
+                    Patimakon (พระพุทธมหามณีรัตนปฏิมากร), is the temple's main Buddha image as well as its namesake. The
+                    sacred image is of the meditating Gautama Buddha seated in the lotus position, made of a
+                    semi-precious
+                    green stone (usually described as jade), clothed in gold,[18] and about 66 centimetres (26 in)
+                    tall.[19][5]
+                </p>
+            </div>
         </div>
     </div>
 
     </div>
     <div class="container">
-
-        <div class="info-img row">
-            <img src="assets/images/krabi-beach.jpeg">
+        <div class="info ">
+            <div class="info-img row">
+                <img src="assets/images/krabi-beach.jpeg">
+            </div>
+            <div>
+                <h2>Krabi Beach</h2>
+                <p>
+                    Krabi, on southern Thailand’s west coast, is a province characterized by craggy, sheer limestone
+                    cliffs,
+                    dense mangrove forests, and more than a hundred offshore islands. Some of its most popular beach
+                    destinations include the Phi Phi Islands, which jut from the sea like giant rainforested boulders,
+                    and
+                    Railay Beach, accessible only by boat and a prominent rock-climbing spot.
+                </p>
+            </div>
         </div>
-        <div>
-            <h2>Krabi Beach</h2>
-            <p>
-                Krabi, on southern Thailand’s west coast, is a province characterized by craggy, sheer limestone cliffs,
-                dense mangrove forests, and more than a hundred offshore islands. Some of its most popular beach
-                destinations include the Phi Phi Islands, which jut from the sea like giant rainforested boulders, and
-                Railay Beach, accessible only by boat and a prominent rock-climbing spot.
-            </p>
+
+    </div>
+    <div class="container">
+        <div class="info ">
+            <div class="info-img info row">
+                <img src="assets/images/elephant.jpg">
+            </div>
+            <div>
+                <h2>Elephant Sanctuary</h2>
+                <p>
+                    Visit the most ethical elephant sanctuary in Phuket, the Elephant Jungle Sanctuary. This Phuket
+                    elephant tour includes some incredible experiences. Go swimming with elephants and enjoy elephant
+                    bathing in Phuket at the Elephant Jungle Sanctuary!
+                </p>
+            </div>
         </div>
 
     </div>
@@ -109,5 +131,6 @@
     <!-- Booking Section -->
 
     <!-- contact Section -->
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -42,6 +42,10 @@ html, body {
     flex-wrap: nowrap;
     object-fit: cover;
     border: 5px solid greenyellow;
-    
-    
+    max-width: 50%;
+
+}
+
+.hide {
+    display: none;
 }
