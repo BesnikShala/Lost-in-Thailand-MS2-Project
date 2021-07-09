@@ -13,6 +13,12 @@ html, body {
     background-size: cover;
 }
 
+ /* ---- Places ---- */
+
+ .places {
+     background-color: cornflowerblue;
+ }
+
 .catagory-option {
     display: flex;
     justify-content: space-around;
@@ -32,7 +38,7 @@ html, body {
 .info-img {
      display: flex;
      flex-wrap: nowrap;
-     max-width: 50%;
+     max-width: 60%;
      overflow: hidden;
      margin-top: 10%;
      margin-bottom: 10px;
@@ -42,7 +48,7 @@ html, body {
     flex-wrap: nowrap;
     object-fit: cover;
     border: 5px solid greenyellow;
-    max-width: 50%;
+    max-width: 60%;
 
 }
 
