@@ -17,5 +17,31 @@ html, body {
     display: flex;
     justify-content: space-around;
     background-color: beige;
+    border: 2px black solid;
 }
 
+.options {
+    border: 2px black solid;
+    height: 100px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.info-img {
+     display: flex;
+     flex-wrap: nowrap;
+     max-width: 50%;
+     overflow: hidden;
+     margin-top: 10%;
+     margin-bottom: 10px;
+     
+}
+.info-img img {
+    flex-wrap: nowrap;
+    object-fit: cover;
+    border: 5px solid greenyellow;
+    
+    
+}
