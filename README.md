@@ -1,102 +1,31 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Lost in Thailand | Milestone Project 2
 
-Welcome BesnikShala,
+The website aims to provide an insight to Thailand and the many places and activities it has to offer. The website provides three catagory sections where users can find information based on their needs. It aims to appeal to tourists who are interested in cultural sights in temples of which there are hundreds of locations to choose from. The website offers the top locations which are based on personal experience of the country and sights as well as top rated locations on google. The second catagory is for those who are seeking the best beaches to visit if they are looking for sun sand and sea. This aims to provide the best locations for all types of people. Whether they are searching for a quiet place to relax or if they are looking for the best beach locations which offer party goers the best mix of a beach holdiay and nightlife. The third ctatagory provides an insight to activities which adds an experience to remmeber, the experiences include interaction with exotic animals such as elephants and tigers via sanctuaries which have been set up for rescued animals. This goes against any exploitation of animals and provides an experience which is truly humbling. In conclusion the website tries to provide information to all kinds of users what ever their need may be. The information is laid out with images and text and via map location, it gives the user access to then seek further information either via the contact form or via links to external sites. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
 
-## Gitpod Reminders
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### First Time Visitor Goals
 
-`python3 -m http.server`
+* As a first-time visitor to the website. I want to clearly understand the Website and what it offers upon visit.
+* I would like to be able to navigate clearly through the website to find exactly what I am looking for. 
+* I want to clearly see my options and be able to find which part of the website provides the information I am seeking. 
+* I want to be able to have the choice of looking for information, such as recommendations and locations to so satisfy my needs.
+* I want to be able to get in touch with a member to find out more information or enquire on more recommendations.
+* Be able to get in touch and be given a package deal based on contact form information received.
 
-A blue button should appear to click: _Make Public_,
+### Returning Visitor Goals
 
-Another blue button should appear to click: _Open Browser_.
+* I want to know if any new information has been added or updated.
+* I would like to be able to compare pricing and be offered a range of choices.
+* I want to know if I can get in contact to receive more information and ask questions on locations. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Design 
 
-A blue button should appear to click: _Make Public_,
+* Colour Scheme
+    * The colour scheme is very basic through out the website to keep things simple and efficient. The main cover image is very light and shows a warm beach location witht he traditional fishtale boat. Image provided by myself on my journey to thailand. The main colours are white, blue and red with very light shades to provide a simple and clean feel. 
 
-Another blue button should appear to click: _Open Browser_.
+* Typography 
+    * I have used the Lato font throughout for it's simplicity and clean look. It is voted the easiest text to read. The fallback font is sans serif as again it is one of the most common fonts and is easy to read. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
