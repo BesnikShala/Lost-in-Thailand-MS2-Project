@@ -146,42 +146,46 @@
             </p>
         </div>
 
-        <div id="myform" class="container-fluid col-md-10">
-            <form action="" class="row">
-                <div class="col-12 col-md-4">
-                    <label for="inputFname" class="form-label">First Name</label>
-                    <input type="text" id="inputFname" class="form-control" required="">
+        <div class="container">
+            <form id="myform" action="" class="row">
+                <div class="form-input col-lg-6">
+                    <input type="text" id="inputFname" class="my-text" required="">
+                    <label for="inputFname" class="my-label">First Name</label>
                 </div>
-                <div class="col-12 col-md-4">
-                    <label for="inputName" class="form-label">Last Name</label>
-                    <input type="text" id="inputLname" class="form-control" required="">
+                <div class="form-input col-lg-6">
+                    <input type="text" id="inputLname" class="my-text" required="">
+                    <label for="inputName" class="my-label">Last Name</label>
                 </div>
-                <div class="col-12 col-md-4">
-                    <label for="inputPhone" class="form-label">Contact Number</label>
-                    <input type="text" id="inputPhone" class="form-control" required="">
+                <div class="form-input col-lg-6">
+                    <input type="email" id="email" class="my-text" required="">
+                    <label for="email" class="my-label">Email</label>
+                </div>
+                <div class="form-input col-md-6">
+                    <input type="text" id="inputPhone" class="my-text" required="">
+                    <label for="inputPhone" class="my-label">Contact Number</label>
                 </div>
                 <div>
                     <p>Please select from the following options</p>
                 </div>
                 <div>
-                    <div class="form-check form-check-inline col col-4">
+                    <div class="form-check form-check-inline col-md-4">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                         <label class="form-check-label" for="inlineCheckbox1">Temples</label>
                     </div>
-                    <div class="form-check form-check-inline col col-4">
+                    <div class="form-check form-check-inline col-md-4">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                         <label class="form-check-label" for="inlineCheckbox2">Beaches</label>
                     </div>
-                    <div class="form-check form-check-inline col col-4">
+                    <div class="form-check form-check-inline col-md-4">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                         <label class="form-check-label" for="inlineCheckbox2">Activities</label>
                     </div>
-                    <div class="col-12">
-                        <label for="messageArea" class="form-label"></label>
-                        <textarea class="form-control" id="messageArea" rows="3" placeholder="Your Message">
-                    </textarea>
+                    <div class="form-input col-md-6">
+                        <label for="messageArea" class="my-label">Please type your message here</label>
+                        <textarea class="my-text" id="messageArea" rows="3" placeholder="Your Message"></textarea>
                     </div>
-                    <button class="btn-primary">Send</button>
+                    <button class="btn-send">Send</button>
+                </div>
             </form>
         </div>
 
