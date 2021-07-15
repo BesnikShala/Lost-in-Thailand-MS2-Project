@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/js/script.js">
     <meta name="Description"
@@ -133,66 +134,71 @@
             </div>
 
         </div>
-    </section>
+        </section>
 
-    <!-- contact Section -->
-    <hr>
+        <!-- contact Section -->
+        <hr>
+        <div class="contact-bg d-flex w-100 vh-100 d-flex">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 contact-info">
+                        <h2 class="text-center mt-5">Do you need more information?</h2>
+                        <p class="text-left">Please feel free to complete the form below if you need more information.
+                            Or if you
+                            would like to get
+                            in
+                            touch for to prepare a travel recomendation package.
+                        </p>
+                        <div class="contact-details">
+                            <div><i class="far fa-address-book"></i>Unit 1, Trafalgar Road, London</div>
+                            <div><i class="far fa-envelope"></i>info@lostinthailand.co.uk</div>
+                            <div><i class="fas fa-phone-alt"></i>08547 303 202</div>
+                            <div><i class="far fa-clock"></i>Monday - Friday 9am - 5pm</div>
+                        </div>
+                    </div>
 
-    <section class="contact">
-        <div class="form-intro">
-            <h3>Do you need more information?</h3>
-            <p>Please feel free to complete the form below if you need more information. Or if you would like to get in
-                touch for to prepare a travel recomendation package.
-            </p>
-        </div>
+            
 
-        <div class="container">
-            <form id="myform" action="" class="row">
-                <div class="form-input col-lg-6">
-                    <input type="text" id="inputFname" class="my-text" required="">
-                    <label for="inputFname" class="my-label">First Name</label>
-                </div>
-                <div class="form-input col-lg-6">
-                    <input type="text" id="inputLname" class="my-text" required="">
-                    <label for="inputName" class="my-label">Last Name</label>
-                </div>
-                <div class="form-input col-lg-6">
-                    <input type="email" id="email" class="my-text" required="">
-                    <label for="email" class="my-label">Email</label>
-                </div>
-                <div class="form-input col-md-6">
-                    <input type="text" id="inputPhone" class="my-text" required="">
-                    <label for="inputPhone" class="my-label">Contact Number</label>
-                </div>
-                <div>
-                    <p>Please select from the following options</p>
-                </div>
-                <div>
-                    <div class="form-check form-check-inline col-md-4">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                        <label class="form-check-label" for="inlineCheckbox1">Temples</label>
-                    </div>
-                    <div class="form-check form-check-inline col-md-4">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                        <label class="form-check-label" for="inlineCheckbox2">Beaches</label>
-                    </div>
-                    <div class="form-check form-check-inline col-md-4">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                        <label class="form-check-label" for="inlineCheckbox2">Activities</label>
-                    </div>
-                    <div class="form-input col-md-6">
-                        <label for="messageArea" class="my-label">Please type your message here</label>
-                        <textarea class="my-text" id="messageArea" rows="3" placeholder="Your Message"></textarea>
-                    </div>
-                    <button class="btn-send">Send</button>
-                </div>
-            </form>
-        </div>
+                    <div class="col-md-6 my-form">
+                        <div class="row">
+                            <div class="col-md-6 form-title">
+                                <h3 class="text-center mt-2 text-white">Contact Form</h3>
+                            </div>
 
+                        </div>
+
+                        <hr class="text-white">
+
+                        <div class="row">
+                            <label for="inputFname" class="my-label col-md-4">First Name</label>
+                            <input type="text" id="inputFname" class="form-control my-text col-md-10" required="">
+                        </div>
+                        <div class="row">
+                            <label for="inputName" class="my-label col-md-4">Last Name</label>
+                            <input type="text" id="inputLname" class="form-control my-text col-md-10" required="">
+                        </div>
+                        <div class="row">
+                            <label for="email" class="my-label col-md-4">Email</label>
+                            <input type="email" id="email" class="form-control my-text col-md-10" required="">
+                        </div>
+                        <div class="row">
+                            <label for="inputPhone" class="my-label col-md-4">Contact Number</label>
+                            <input type="text" id="inputPhone" class="form-control my-text col-md-10" required="">
+                        </div>
+                        <div class="form-input row">
+                            <label for="messageArea" class="my-label col-md-10">Please write your message</label>
+                            <textarea class="my-text col-md-10" id="messageArea" placeholder="Your Message"></textarea>
+                        </div>
+                        <button class="btn btn-send align-itmes-center">Send</button>
+                    </div>
+
+
+                </div>
+            </div>
       
 
     
-    </section>
+    
     <script src="assets/js/script.js"></script>
 </body>
 </html>
