@@ -50,7 +50,7 @@ The website aims to provide an insight to Thailand and the many places and activ
 
 * The user is able to switch between three different catagories and this will replace the content under each catagory rather than filling the page with too much text and images. The user can easily navigate the three catagories at any point.
 
-* The site has a contact form which is linked to an email API, this will allow users to be able to successfully fill out the contact form and send it to the site owner. The API will then send the relevant information back to the owner for them to process. 
+* The site has a contact form for users to submit message requests for further information.
 
 ### Features to Implement
 
@@ -60,7 +60,7 @@ The website aims to provide an insight to Thailand and the many places and activ
 
 * The site will include a footer with contact information and also clickable links to social media. 
 
-* 
+*  The site has a contact form which is linked to an email API, this will allow users to be able to successfully fill out the contact form and send it to the site owner. The API will then send the relevant information back to the owner for them to process. 
 
 ## Technologies, Languages, Frameworks and Libraries used
 
@@ -78,6 +78,9 @@ The website aims to provide an insight to Thailand and the many places and activ
 
 * Google Fonts
     * Included on the site as it is very easy to implement and style. The fonts are also secure and should not be subject to fail. 
+
+* Font Awesome 
+    * Included on the site for it's use of icons. Thye are really easy to implement into the code and are very easily styled. A simple icon can change the whole look and feel of a website.
 
 ## Testing
 

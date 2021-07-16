@@ -22,8 +22,6 @@ ul.navbar-nav {
     color: white;
     font-weight: 300;
     font-size: 4.8rem;
-    position: relative;
-    top: 175px;
     text-shadow: 2px 2px slategray;
 }
 
@@ -47,6 +45,41 @@ ul.navbar-nav {
 .active-nav {
     background-color: #252b31
 }
+
+.navbar-toggler {
+  color: rgba(0, 48, 73, 0.9);
+  border-radius: 80%;
+  height: 50px;
+  width: 50px;
+  padding-left: 10px;
+  padding-right: 13px;
+}
+
+.navbar-toggler-icon {
+    color: blue;
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+navbar-toggler span {
+    color: black;
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: rgb(255, 0, 128);
+    border: 1px;
+}
+
+.navbar-toggler span + span {
+    color: black;
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: chartreuse;
+}
+
+
 
  /* ---- Places ---- */
 
@@ -120,6 +153,7 @@ ul.navbar-nav {
     width: 100%;
     background-image: url('/assets/images/Bangkok.jpg');
     background-size: cover;
+    background-repeat: repeat-y;
     align-content: space-between;
 }
 
@@ -140,17 +174,10 @@ ul.navbar-nav {
     font-size: 20px;
 }
 
-i {
+.contact-details i {
     font-size: 35px;
     color: white;
     margin: 10px;
-}
-
-.form-title h3{
-    position: relative;
-    left: 192px;
-    top: 10px;
-
 }
 
 .my-form {
@@ -185,21 +212,13 @@ i {
     color: rgba(28, 9, 133, 0.863);
     cursor: text;
     transition: transform 0.3s ease-in;
-    margin: 10px;
     color: white;
     text-transform: uppercase;
-    margin-left: 20px;
-    position: relative;
-    left: 20px;
 }
 
 .form-intro {
     text-align: center;
 } 
-
-.form-input {
-    position: relative;
-}
 
 .my-text {
     height: 20px;
@@ -220,10 +239,23 @@ i {
 } 
 
 .btn-send {
-    position: relative;
-    left: 250px;
-    width: 100px;
     font-size: 18px;
     background: rgba(69, 55, 151, 0.863);
     margin: 20px;
+    color: white;
+}
+
+/* --- Footer Section ---  */
+
+.my-footer {
+    background: rgb(12, 12, 34);
+    height: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position:static;
+}
+
+.my-footer li i {
+    font-size: 25px;
 }
