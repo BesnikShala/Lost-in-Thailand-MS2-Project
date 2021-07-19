@@ -147,6 +147,13 @@ navbar-toggler span {
     display: none;
 }
 
+/* --- Google Maps ---  */
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
 /* ---- Contact ---- */
 
 .contact-bg {

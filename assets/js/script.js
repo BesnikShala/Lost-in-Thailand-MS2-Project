@@ -34,3 +34,15 @@ function showInfo(ab) {
          document.getElementsByClassName('info')[2].style.display = "block";
      }
 }
+
+// Google maps function
+
+function initMap() {
+    var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 8,
+        center: {
+            lat: 13.7563,
+            lng: 100.5018
+        }
+    });
+}
