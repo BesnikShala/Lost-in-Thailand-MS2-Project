@@ -76,31 +76,29 @@ function initMap() {
         }
     ];
 
-    
+    for (var i = 0; 1 < markers.length; i++) {
+        myMarker(markers[i]);
+    }
 
-  
+    function myMarker(mark) {
+        let marker = new google.maps.Marker({
+            position: mark.coords,
+            map: map,
+        });
 
-   
+        if (mark.iconImage) {
+            marker.setIcon(mark.iconImage);
+        }
 
-    // const infowindow = new google.maps.InfoWindow({
-    //     content: markerString,
-    // });
+        if (mark.content) {
+            var infoWindow = new google.maps.InfoWindow({
+                content: mark.content,
+            });
+        }
 
-    // const markers = new google.maps.Marker({
-    //     position: {
-    //         lat: 12.9727,
-    //         lng: 100.889
-    //     },
-    //     content: markerString,
-    //     map,
-    //     title: "Sanctuary of Truth",
-    // });
+        marker.addListener("click", () => {
+            infoWindow.open(map, marker);
+        });
+    }
 
-    // markers.addListener("click", () => {
-    //     infowindow.open({
-    //         anchor: markers,
-    //         map,
-    //         shouldFocus: false,
-    //     });
-    // });
 };
