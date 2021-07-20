@@ -54,7 +54,7 @@ function initMap() {
                      '<b>Mai Deang</b>, <b>Mai Takien</b> and <b>Mai Panchaat</b>. This is all hand carved and there is not one inch of the' + 
                      'temple which has not been carved and detailed. Building started in 1981 and still ongoing, the wood is replaced once it' +
                      'gets weathered and damaged over time. It is continupusly replensihed and you can see the carving on site and even join in. </p>' +
-                     '<p>See website for more details : <a href="http://www.bangkok.com/pattaya/attractions/the-sanctuary.htm"></a></p>' +
+                     '<p>See website for more details : <a href="http://www.bangkok.com/pattaya/attractions/the-sanctuary.htm" target="_blank">Sanctuary of Truth</a></p>' +
                      '</div>' + 
                      '</div>';
 

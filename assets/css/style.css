@@ -160,6 +160,32 @@ navbar-toggler span {
     margin-left: 200px;
 }
 
+/* -- Map info window Content --  */
+
+#content {
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    background-color: rgba(144, 206, 240, 0.6);
+    margin: 0 auto;
+}
+
+#contentHeader {
+    align-content: center;
+
+}
+
+.contentTitle {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#mainContent {
+    text-align: center;
+    
+
+}
 /* ---- Contact ---- */
 
 .contact-bg {
