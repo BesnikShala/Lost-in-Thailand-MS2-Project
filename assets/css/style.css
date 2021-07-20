@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-
-
 html, body {
     font-size: 1.1rem;
     font-weight: 500;
@@ -80,7 +78,6 @@ navbar-toggler span {
 }
 
 
-
  /* ---- Places ---- */
 
  .places {
@@ -126,13 +123,21 @@ navbar-toggler span {
     margin-right: 4px;
 }
 
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(35, 28, 28, 0.41);
+    padding: 5%;
+    margin: 2%;
+    box-shadow: 1px 2px 20px;
+}
+
 .info-img {
      display: flex;
      flex-wrap: nowrap;
      max-width: 60%;
      overflow: hidden;
-     margin-top: 10%;
-     margin-bottom: 10px;
+     margin: 10px 5px;
      
 }
 .info-img img {
