@@ -303,16 +303,18 @@ function initMap() {
         }
     ];
 
+    // iterate through marker array
+
     for (var i = 0; 1 < markers.length; i++) {
         myMarker(markers[i]);
     }
-
+       // set markers on map
     function myMarker(mark) {
         let marker = new google.maps.Marker({
             position: mark.coords,
             map: map,
         });
-
+            // set marker images
         if (mark.iconImage) {
             marker.setIcon(mark.iconImage);
         }
@@ -322,7 +324,7 @@ function initMap() {
                 content: mark.content,
             });
         }
-
+           // add click listener for infowindow
         marker.addListener("click", () => {
             infoWindow.open(map, marker);
         });

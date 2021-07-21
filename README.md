@@ -36,6 +36,10 @@ The website aims to provide an insight to Thailand and the many places and activ
 
 * Wireframes
 
+    * The wireframes show a similiar layout throughout. A few things changed the layout after the one on one meetings with my mentor. Also The span of the map made me change the layout so the map is as large as possible as my markers are spread out and I wanted to make the most of that feature. 
+
+    - <a>
+
 
 
 ## Design 
