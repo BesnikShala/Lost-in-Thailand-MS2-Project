@@ -34,6 +34,10 @@ function initMap() {
             lng: 100.5018
         }
     });
+    
+    const templeIcon = "http://maps.google.com/mapfiles/kml/shapes/church.png"
+
+    const beachIcon = "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
 
     var markers = [
         {
@@ -54,6 +58,7 @@ function initMap() {
              '<p>See website for more details : <a href="http://www.bangkok.com/pattaya/attractions/the-sanctuary.htm" target="_blank">Sanctuary of Truth</a></p>' +
              '</div>' +
              '</div>',
+             iconImage: templeIcon,
         },
         {
         coords: {
@@ -73,6 +78,7 @@ function initMap() {
             '<p>See website for more details : <a href="https://www.buddhistdoor.net/features/tales-of-the-emerald-buddha-simplicity-and-splendor" target="_blank">The emerald Buddha</a></p>' +
             '</div>' +
             '</div>',
+            iconImage: templeIcon,
         },
         {
         coords: {
@@ -92,6 +98,7 @@ function initMap() {
             '<p>See website for more details : <a href="https://uk.hotels.com/go/thailand/wat-arun" target="_blank">The Temple of Dawn</a></p>' +
             '</div>' +
             '</div>',
+            iconImage: templeIcon,
         },
         {
             coords: {
@@ -111,6 +118,7 @@ function initMap() {
                 '<p>See website for more details : <a href="https://en.wikipedia.org/wiki/Wat_Benchamabophit" target="_blank">The Marble Temple</a></p>' +
                 '</div>' +
                 '</div>',
+            iconImage: templeIcon,
         },
         {
             coords: {
@@ -128,6 +136,7 @@ function initMap() {
                 '<p>See website for more details : <a href="https://en.wikipedia.org/wiki/Wat_Benchamabophit" target="_blank">The Marble Temple</a></p>' +
                 '</div>' +
                 '</div>',
+            iconImage: templeIcon,
         },
         {
             coords: {
@@ -146,6 +155,7 @@ function initMap() {
                 '<p>See website for more details : <a href="https://www.phuket101.net/freedom-beach/" target="_blank">Freedom Beach</a></p>' +
                 '</div>' +
                 '</div>',
+            iconImage: beachIcon,
         },
         {
             coords: {
@@ -154,7 +164,7 @@ function initMap() {
             }, 
             content: '<div id="content">' +
                 '<div id="contentHeader">' +
-                '<h3 class="contentTitle"> Karon Beach | Phuket</h3>' +  // to finish
+                '<h3 class="contentTitle"> Karon Beach | Phuket</h3>' + 
                 '</div>' +
                 '<div id="mainContent">' +
                 '<p>Karon Beach is located on the central east coast of Phuket. It has 300 meters of the finest white sand beach, this little paradise' +
@@ -164,6 +174,27 @@ function initMap() {
                 '<p>See website for more details : <a href="https://www.phuket101.net/freedom-beach/" target="_blank">Freedom Beach</a></p>' +
                 '</div>' +
                 '</div>',
+            iconImage: beachIcon,
+        },
+        {
+            coords: {
+                lat: 7.8170, 
+                lng: 98.7956
+            },
+            content: '<div id="content">' +
+                '<div id="contentHeader">' +
+                '<h3 class="contentTitle"> Bamboo Island | Krabi</h3>' +
+                '</div>' +
+                '<div id="mainContent">' +
+                '<p>Bamboo Island is one of our favorite destinations as it is a very remote island inbetween Krabi and <b>Phi Phi Islands</b> this means' +
+                ' you will need to take either a fishtale boat or speed boat which is available from the Krabi local tours or online. We recommend the speed boat' +
+                ' as travelling in the traditional fish tale boat can be uncomfortable on long journies. The Island is remote but houses crystal clear blue water' +
+                'it has limitted refrreshments on shore so we recommend taking extra drinks and food with you. This beach getaway offers a true escape from the busy ' +
+                'tourist flooded beaches and offers your own island which you can roam and find a spot that suits you.</p>' +
+                '<p>See website for more details : <a href="https://simbaseatrips.com/bamboo-island-thailand/" target="_blank">Bamboo Island</a></p>' +
+                '</div>' +
+                '</div>',
+            iconImage: beachIcon,
         }
     ];
 
