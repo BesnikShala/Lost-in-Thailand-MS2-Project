@@ -52,13 +52,13 @@ The website aims to provide an insight to Thailand and the many places and activ
 
 * The site has a contact form for users to submit message requests for further information.
 
+* The site has a tab list that the user will be able to select different sections via the links which will replace the current content and display the content they have selected.
+
+* The site includes a maps API which will show the user the location of the place they are looking at. They will be able to use this to navigate and plan their holidays. 
+
+* The site includes a footer with contact information and also clickable links to social media. 
+
 ### Features to Implement
-
-* The site will have futher list style link under each catagory section, the user will be able to select different sections via the links which will replace the current content and display the content they have selected.
-
-* The site will include a maps API which will show the user the location of the place they are looking at. They will be able to use this to navigate and plan their holidays. 
-
-* The site will include a footer with contact information and also clickable links to social media. 
 
 *  The site has a contact form which is linked to an email API, this will allow users to be able to successfully fill out the contact form and send it to the site owner. The API will then send the relevant information back to the owner for them to process. 
 
@@ -81,6 +81,9 @@ The website aims to provide an insight to Thailand and the many places and activ
 
 * Font Awesome 
     * Included on the site for it's use of icons. Thye are really easy to implement into the code and are very easily styled. A simple icon can change the whole look and feel of a website.
+
+* Google Maps API
+    * This was used to display the use of Java Script to get the map to run and also display custom content and markers. 
 
 ## Testing
 
