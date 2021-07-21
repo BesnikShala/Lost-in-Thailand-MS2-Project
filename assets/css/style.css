@@ -76,6 +76,20 @@ navbar-toggler span {
     height: 2px;
     background-color: chartreuse;
 }
+/* -- About Section --  */
+
+.about {
+    letter-spacing: 2px;
+    background-color: rgba(156, 188, 206, 0.6);
+    margin-top: 20px;
+    box-shadow: 1px 2px 20px;
+}
+
+.about h1 {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: 300;
+}
 
  /* ---- Places ---- */
 
@@ -290,11 +304,12 @@ navbar-toggler span {
     background: rgb(12, 12, 34);
     height: 150px;
     display: flex;
-    text-align: center;
-    align-items: center;
-    position:static;
+    position: relative;
+    justify-content: center;
+    
 }
 
 .my-footer li i {
-    font-size: 25px;
+    font-size: 45px;
+
 }

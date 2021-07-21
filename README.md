@@ -38,11 +38,8 @@ The website aims to provide an insight to Thailand and the many places and activ
 
     * The wireframes show a similiar layout throughout. A few things changed the layout after the one on one meetings with my mentor. Also The span of the map made me change the layout so the map is as large as possible as my markers are spread out and I wanted to make the most of that feature. 
 
-    - <a>
+    - <a href="https://github.com/BesnikShala/Lost-in-Thailand-MS2-Project/blob/main/assets/images/Wireframe.jpeg">Wireframe Link</a>
 
-
-
-## Design 
 
 ### Existing Features
 
@@ -65,6 +62,10 @@ The website aims to provide an insight to Thailand and the many places and activ
 ### Features to Implement
 
 *  The site has a contact form which is linked to an email API, this will allow users to be able to successfully fill out the contact form and send it to the site owner. The API will then send the relevant information back to the owner for them to process. 
+
+* Weather API to show the weather in Thailand.
+
+* Ratings API to show ratings for certain place or activity. 
 
 ## Technologies, Languages, Frameworks and Libraries used
 
