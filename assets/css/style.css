@@ -137,29 +137,25 @@ navbar-toggler span {
 }
 
 .info {
-    display: flex;
-    justify-content: space-evenly;
-    background: rgba(35, 28, 28, 0.41);
-    padding: 5%;
-    margin: 2%;
+    align-items: center;
+    display: inline-flex;
     box-shadow: 1px 2px 20px;
 }
 
-.info-img {
-     display: flex;
-     flex-wrap: nowrap;
-     max-width: 60%;
-     overflow: hidden;
-     margin: 10px 5px;
-     
-}
-.info-img img {
+ .info-img {
+    display: flex;
     flex-wrap: nowrap;
-    object-fit: cover;
-    border: 5px solid greenyellow;
-    max-width: 60%;
-
+    height: 550px;
+    margin: 10px;
 }
+
+ .info-img img {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    margin: 20px;
+ }
+
 
 .hide {
     display: none;
@@ -171,7 +167,7 @@ navbar-toggler span {
     height: 600px;
     width: 100%;
     box-shadow: 1px 2px 20px;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 /* -- Map info window Content --  */
@@ -240,7 +236,6 @@ navbar-toggler span {
     align-content: center;
     justify-content: center;
     position: relative;
-    left: 20px;
 }
 
 
