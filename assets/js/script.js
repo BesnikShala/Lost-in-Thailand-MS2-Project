@@ -310,7 +310,7 @@ function initMap() {
 
 
     // set markers on map
-    
+
     function myMarker(mark) {
 
         let marker = new google.maps.Marker({
@@ -328,7 +328,7 @@ function initMap() {
             });
         }
         // add click listener for infowindow
-        marker.addListener("click", () => {
+        marker.addListener("click", function() {
             infoWindow.open(map, marker);
         });
     }

@@ -14,7 +14,8 @@ function sendEmail(myform) {
         function(error) {
             console.log("Error, Email Not Sent!", error);
         }
-    )
+    );
+    return false;
 }
 
 function refresh() {
