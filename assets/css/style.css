@@ -94,12 +94,20 @@ navbar-toggler span {
  /* ---- Places ---- */
 
  .places {
-     background-color: cornflowerblue;
+   letter-spacing: 2px;
+   box-shadow: 1px 2px 20px;
+ }
+
+ .places h1 {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: 300;
  }
 
 .catagory-option {
     display: flex;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .temples {
@@ -147,6 +155,12 @@ navbar-toggler span {
     flex-wrap: nowrap;
     height: 550px;
     margin: 10px;
+}
+
+.info-text {
+    position: relative;
+    right: 76px;
+    text-align: center;
 }
 
  .info-img img {
@@ -216,7 +230,7 @@ navbar-toggler span {
     top: 80px;
     background: rgba(0, 0, 0, 0.4);
     height: 500px;
-    
+
 }
 
 .contact-details {
@@ -244,7 +258,7 @@ navbar-toggler span {
     height: 40px;
     border-color: rgb(228, 248, 248);
     border-width: 0 1px 2px 0;
-    margin-left: 55px;
+    margin-left: 36px;
     width: 85%;
     color: white;
     background: rgba(71, 70, 70, 0.4);
@@ -261,12 +275,12 @@ navbar-toggler span {
     left: 40px;
     top: 10px;
     font-weight: 300;
-    letter-spacing: 1px;  
+    letter-spacing: 1px;
 }
 
 .form-intro {
     text-align: center;
-} 
+}
 
 .my-text {
     height: 20px;
@@ -284,13 +298,14 @@ navbar-toggler span {
 
 .form-intro {
     text-align: center;
-} 
+}
 
 .btn-send {
     font-size: 18px;
     background: rgba(69, 55, 151, 0.863);
     margin: 20px;
     color: white;
+    width: -webkit-fill-available;
 }
 
 /* --- Footer Section ---  */
@@ -301,7 +316,7 @@ navbar-toggler span {
     display: flex;
     position: relative;
     justify-content: center;
-    
+
 }
 
 .my-footer li a i {
@@ -313,7 +328,7 @@ navbar-toggler span {
 }
 
 .my-footer li a i:hover {
-    color:rgb(228, 248, 248);
+    color: rgb(228, 248, 248);
 }
 
 .social {
@@ -330,32 +345,90 @@ navbar-toggler span {
     font-weight: 300;
 }
 
- /* ---- Media Query ---- */
+/* ---- Media Query ---- */
 
- @media screen and (max-width: 375px) {
+/* -- Tablet Screen --  */
 
-    .body{
+@media screen and (max-width: 768px) {
+    .beaches {
+        background-image: url(../images/beach.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .my-form .my-label {
+        line-height: 30px;
+        color: rgba(28, 9, 133, 0.863);
+        cursor: text;
+        transition: transform 0.3s ease-in;
+        color: white;
+        text-transform: uppercase;
+        position: relative;
+        top: 10px;
+        left: 0px;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+
+    .my-form .my-text {
+        display: block;
+        height: 40px;
+        border-color: rgb(228, 248, 248);
+        border-width: 0 1px 2px 0;
+        margin-left: 36px;
+        width: 85%;
+        color: white;
+        background: rgba(71, 70, 70, 0.4);
+    }
+
+    .btn-send {
+        font-size: 18px;
+        background: rgba(69, 55, 151, 0.863);
+        color: white;
+        width: -webkit-fill-available;
+    }
+
+    .info-text {
+        position: relative;
+        right: 0px;
+        text-align: center;
+    }
+}
+
+/* -- Mobile Screen --  */
+
+@media screen and (max-width: 375px) {
+
+    .body {
         font-size: 17px;
     }
 
     .title {
         font-size: 50px;
-     }
+    }
 
     .info {
-        width: 300px;
+        width: 353px;
         margin-top: 10px;
-     }
+        text-align: center;
+    }
 
     .info-img {
         margin: 0 auto;
 
-     }
-    
+    }
+
+    .info-text {
+        position: relative;
+        right: 0px;
+        text-align: center;
+    }
+
     .info-img img {
-        margin: 0 auto;
         max-width: 280px;
-     }
+    }
+
     .contact-info {
         color: white;
         font-size: 18px;
@@ -365,8 +438,8 @@ navbar-toggler span {
         right: 0px;
         background: rgba(0, 0, 0, 0.4);
         height: 500px;
-
     }
+
 
     .my-form {
         background: rgba(0, 0, 0, 0.4);
@@ -385,16 +458,29 @@ navbar-toggler span {
         color: white;
         background: rgba(71, 70, 70, 0.4);
         margin: 20px;
+        margin-left: 36px;
     }
 
     .my-form .my-label {
-        font-size: 17px;
         line-height: 30px;
         color: rgba(28, 9, 133, 0.863);
         cursor: text;
         transition: transform 0.3s ease-in;
         color: white;
         text-transform: uppercase;
+        position: relative;
+        top: 10px;
+        left: 0px;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+
+    .btn-send {
+        font-size: 18px;
+        background: rgba(69, 55, 151, 0.863);
+        color: white;
+        margin: 20px;
+        width: -webkit-fill-available;
     }
 
     .my-footer {
@@ -402,8 +488,8 @@ navbar-toggler span {
     }
 
     .social {
-       display: flex;
-       letter-spacing: 10px;
+        display: flex;
+        letter-spacing: 10px;
     }
-     
- }
+
+}

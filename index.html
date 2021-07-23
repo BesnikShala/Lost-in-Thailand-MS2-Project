@@ -40,6 +40,8 @@
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link text-white" href="#">Home</a>
                 </li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">About</a>
+                </li>
                 <li class="nav-item"><a class="nav-link text-white" href="#places">Places</a>
                 </li>
                 <li class="nav-item"><a class="nav-link text-white" href="#myform">Contact</a>
@@ -59,25 +61,30 @@
 
     <div class="container text-center mb-5 p-3 about">
         <h1>About</h1>
+        <hr>
         <p>Here at Lost In Thailand we aim to bring you an insight to those who are thinking of visiting Thailand or are
             there already but lost. We bring you advice
             and recommendations based on actual personal visits to t    he country. We try to bring you our opinion on the
             best places to visit and the best acitivites to do
             whilst you are on your trip. Once you have viewed the best places to visit you can then use our contact services to
             get in touch with us to discuss your trip. We recommend a mixture
-            of city and beach breaks so you can get the best out of Thailand. </p>
-            <hr>
-        <div>Below we will give you information on three sections which will help you in your quest to find the best
-            places
-            to visit. You can also use our map where you are be able to see the locations we recommend and also find
-            information on all
-            of them</div>
+            of city and beach breaks so you can get the best out of Thailand. 
+        </p>
+        <hr>
     </div>
     
 
     <hr>
-
-    <!-- Nav Bar for temples, beaches and Activities -->
+<!-- 
+    --- Places Section --- -->
+    <div class=" container text-center p-3 places">
+        <h1>Places</h1>
+         <p>
+             Below we have three sections and our insight into each category. Feel free to browse our number one most
+             recommended place to visit. You can also use our map where you are be able to see additional locations and
+             also find out more informaton on each one.
+         </p>
+    </div>
 
     <section id="places" class="container">
         <div class="catagory-option row">
@@ -101,7 +108,7 @@
                 <div class="info-img col-md col-12">
                     <img src="assets/images/truth.jpeg" alt="An image of the Sanctuary of Truth in Pattaya Thailand">
                 </div>
-                <div class="col-md col-sm-12">
+                <div class="col-lg col-sm-12 info-text">
                     <h2>The Sanctuary of Truth</h2>
                     <p> There are thousands of temples accross Thailand, hwoever to visit every single one in one trip
                         would be impossible. We have provided our most recommended temples to visit to get the best
@@ -118,10 +125,10 @@
             </div>
 
             <div class="info hide row">
-                <div class="info-img col-md col-12">
+                <div class="info-img col-md col-12 info-text">
                     <img src="assets/images/beach.jpeg" alt="An image of Ao Nang Beach in Krabi Thailand">
                 </div>
-                <div class="col-md col-sm-12">
+                <div class="col-lg col-sm-12">
                     <h2>Bamboo Island Beach</h2>
                     <p>Thailand is famous for it's beaches and which have featured in many films such as 'The Beach' with Leonardo Dicaprio. 
                        Situated inbetween Krabi and the Phi Phi Islands, Bamboo Island is only accessible by boat.
@@ -137,7 +144,7 @@
                 <div class="info-img col-md-6 col-12">
                     <img src="assets/images/elephant.jpeg" alt="An image of a mother elephant and a baby elephant eating">
                 </div>
-                <div class="col-md col-sm-12">
+                <div class="col-lg col-sm-12 info-text">
                     <h2>Elephant Sanctuary</h2>
                     <p>
                         There are many activities to do in Thailand, with many of them being offered on the coast from
@@ -179,8 +186,8 @@
 
                 <form class="col-md-6 col-sm-12 my-form" id="myform" onsubmit="return sendEmail(this);">
                     <div class="row">
-                        <div class="col-md-6 form-title">
-                            <h3 class="text-center mt-2 text-white">Contact Form</h3>
+                        <div class="col-12 form-title">
+                            <h3 class="text-center mt-2 text-white">Contact Us</h3>
                         </div>
 
                     </div>
@@ -188,19 +195,19 @@
                     <hr class="text-white">
 
                     <div class="row">
-                        <label for="inputFname" class="my-label col-md-4 col-sm-10">First Name</label>
+                        <label for="inputFname" class="my-label col-md-6 col-sm-10">First Name</label>
                         <input type="text" id="inputFname" class="form-control my-text col-md-10" required="">
                     </div>
                     <div class="row">
-                        <label for="inputLname" class="my-label col-md-4 col-sm-10">Last Name</label>
+                        <label for="inputLname" class="my-label col-md-6 col-sm-10">Last Name</label>
                         <input type="text" id="inputLname" class="form-control my-text col-md-10" required="">
                     </div>
                     <div class="row">
-                        <label for="email" class="my-label col-md-4 col-sm-10">Email</label>
+                        <label for="email" class="my-label col-md-6 col-sm-10">Email</label>
                         <input type="email" id="email" class="form-control my-text col-md-10" required="">
                     </div>
                     <div class="row">
-                        <label for="inputPhone" class="my-label col-md-4 col-sm-10">Contact Number</label>
+                        <label for="inputPhone" class="my-label col-md-6 col-sm-10">Contact Number</label>
                         <input type="text" id="inputPhone" class="form-control my-text col-md-10" required="">
                     </div>
                     <div class="form-input row">
