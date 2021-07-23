@@ -24,7 +24,7 @@ ul.navbar-nav {
 }
 
 .banner-image {
-    background-image:url(/assets/images/fishtale-boat.jpeg);
+    background-image:url('../images/fishtale-boat.jpeg');
     background-size: cover;
 }
 
@@ -113,7 +113,7 @@ navbar-toggler span {
     background-image:url(../images/beach.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-
+    background-position-y: -500px;
 }
 
 .activities {
@@ -200,7 +200,7 @@ navbar-toggler span {
 
 .contact-bg {
     width: 100%;
-    background-image: url('/assets/images/Bangkok.jpg');
+    background-image: url('../images/Bangkok.jpg');
     background-size: cover;
     background-repeat: repeat-y;
     align-content: space-between;
