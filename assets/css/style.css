@@ -54,7 +54,7 @@ ul.navbar-nav {
 }
 
 .navbar-toggler-icon {
-    color: blue;
+    color:black;
     font-size: 20px;
     height: 20px;
     width: 20px;
@@ -74,7 +74,7 @@ navbar-toggler span {
     display: block;
     width: 30px;
     height: 2px;
-    background-color: chartreuse;
+    color: black;
 }
 /* -- About Section --  */
 
@@ -297,7 +297,7 @@ navbar-toggler span {
 
 .my-footer {
     background: rgb(12, 12, 34);
-    height: 200px;
+    height: 100%;
     display: flex;
     position: relative;
     justify-content: center;
@@ -318,7 +318,7 @@ navbar-toggler span {
 
 .social {
     display: flex;
-    letter-spacing: 40px;
+    letter-spacing: 20px;
 }
 
 .footer-message {
@@ -329,3 +329,71 @@ navbar-toggler span {
     letter-spacing: 1px;
     font-weight: 300;
 }
+
+ /* ---- Media Query ---- */
+
+ @media screen and (max-width: 375px) {
+
+    .body{
+        font-size: 17px;
+    }
+
+    .title {
+        font-size: 50px;
+     }
+
+    .info {
+        width: 300px;
+        margin-top: 10px;
+     }
+
+    .info-img {
+        margin: 0 auto;
+
+     }
+    
+    .info-img img {
+        margin: 0 auto;
+        max-width: 280px;
+     }
+    .contact-info {
+        color: white;
+        font-size: 18px;
+        margin-top: 100px;
+        text-align: center;
+        position: relative;
+        background: rgba(0, 0, 0, 0.4);
+        height: 500px;
+
+    }
+
+    .my-form .my-text {
+        display: block;
+        height: 40px;
+        border-color: rgb(228, 248, 248);
+        border-width: 0 1px 2px 0;
+        color: white;
+        background: rgba(71, 70, 70, 0.4);
+        margin: 20px;
+    }
+
+    .my-form .my-label {
+        font-size: 17px;
+        line-height: 30px;
+        color: rgba(28, 9, 133, 0.863);
+        cursor: text;
+        transition: transform 0.3s ease-in;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .my-footer {
+        height: 300px;
+    }
+
+    .social {
+       display: flex;
+       letter-spacing: 10px;
+    }
+     
+ }
