@@ -98,17 +98,19 @@ The website aims to provide an insight to Thailand and the many places and activ
 
 * Passed with no errors found.
 
-- <a href="" >HTML-Pass Test Screenshot</a>
+- <a href="https://github.com/BesnikShala/Lost-in-Thailand-MS2-Project/blob/main/assets/images/htmlValidator.jpeg" >HTML-Pass Test Screenshot</a>
 
 [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) To validate HTML code.
 
 * Passed with no errors found.
 
-- <a href="" >CSS-Pass Test Screenshot</a>
-
+- <a href="https://github.com/BesnikShala/Lost-in-Thailand-MS2-Project/blob/main/assets/images/cssValidator.jpeg" >CSS-Pass Test Screenshot</a>
 
 
 ### User Stories Testing 
+* As a first-time visitor to the website. I want to understand the Website and what it offers.
+    * When viewing the webpage both on desktop or mobile version the user can clearly view the information displayed. The navbar is sleek and visible at all times. It directs the user to the desired section on the same page for simplicity and loading times. The user can return to the top page at any point. The information is easy to read and clearly laid out. Images have alt attributes which display information if the images fail to load. Please see screenshot link below which will direct you to a new page to view the screenshots. 
+    -   <a href="">Desktop Screenshot 1</a>
 
 ### Functionality Testing
 
