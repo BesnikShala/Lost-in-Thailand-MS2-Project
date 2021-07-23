@@ -1,6 +1,8 @@
 # Lost in Thailand | Milestone Project 2
 
-The website aims to provide an insight to Thailand and the many places and activities it has to offer. The website provides three catagory sections where users can find information based on their needs. It aims to appeal to tourists who are interested in cultural sights in temples of which there are hundreds of locations to choose from. The website offers the top locations which are based on personal experience of the country and sights as well as top rated locations on google. The second catagory is for those who are seeking the best beaches to visit if they are looking for sun sand and sea. This aims to provide the best locations for all types of people. Whether they are searching for a quiet place to relax or if they are looking for the best beach locations which offer party goers the best mix of a beach holdiay and nightlife. The third ctatagory provides an insight to activities which adds an experience to remmeber, the experiences include interaction with exotic animals such as elephants and tigers via sanctuaries which have been set up for rescued animals. This goes against any exploitation of animals and provides an experience which is truly humbling. In conclusion the website tries to provide information to all kinds of users what ever their need may be. The information is laid out with images and text and via map location, it gives the user access to then seek further information either via the contact form or via links to external sites. 
+<img src="./assets/images/mockup.jpeg" alt="mock up image of website on various devices"> 
+
+The website aims to provide an insight to Thailand and the many places and activities it has to offer. The website provides three category sections where users can find information based on their needs. It aims to appeal to tourists who are interested in cultural sights in temples of which there are hundreds of locations to choose from. The website offers the top locations which are based on personal experience of the country and sights as well as top rated locations on google. The second category is for those who are seeking the best beaches to visit if they are looking for sun sand and sea. This aims to provide the best locations for all types of people. Whether they are searching for a quiet place to relax or if they are looking for the best beach locations which offer party goers the best mix of a beach holdiay and nightlife. The third ctatagory provides an insight to activities which adds an experience to remember, the experiences include interaction with exotic animals such as elephants and tigers via sanctuaries which have been set up for rescued animals. This goes against any exploitation of animals and provides an experience which is truly humbling. In conclusion the website tries to provide information to all kinds of users what ever their need may be. The information is laid out with images and text and via map location, it gives the user access to then seek further information either via the contact form or via links to external sites. 
 
 
 ## UX
@@ -24,7 +26,7 @@ The website aims to provide an insight to Thailand and the many places and activ
 
 * Colour Scheme
 
-    * The colour scheme is very basic through out the website to keep things simple and efficient. The main cover image is very light and shows a warm beach location witht he traditional fishtale boat. Image provided by myself on my journey to thailand. The main colours are white, blue and red with very light shades to provide a simple and clean feel. 
+    * The colour scheme is very basic through out the website to keep things simple and efficient. The main cover image is very light and shows a warm beach location with the traditional fishtale boat. Image provided by myself on my journey to Thailand. The main colours are white, blue and red with very light shades to provide a simple and clean feel. 
 
 * Typography 
 
@@ -49,7 +51,7 @@ The website aims to provide an insight to Thailand and the many places and activ
 
 * The site includes three main sections under the nav link places. Here the user will see three large buttons/tabs clearly marked and outlined for the user to navigate through the different sections.
 
-* The user is able to switch between three different catagories and this will replace the content under each catagory rather than filling the page with too much text and images. The user can easily navigate the three catagories at any point.
+* The user is able to switch between three different categories and this will replace the content under each category rather than filling the page with too much text and images. The user can easily navigate the three catagories at any point.
 
 * The site has a contact form for users to submit message requests for further information.
 
@@ -89,6 +91,9 @@ The website aims to provide an insight to Thailand and the many places and activ
 
 * Google Maps API
     * This was used to display the use of Java Script to get the map to run and also display custom content and markers. 
+
+* EmailJS API
+    * This was used for form validation, users can fill our the information on the contact page and the details get directly emailed to me with their request.
 
 ## Testing
 
@@ -152,6 +157,8 @@ Tested on both Chrome and Safari web browsers.
 
 ### Known Bugs and Problems
 
+* Live deployment problem occured with regards to the rendering of the css and various images. The browser preview worked perfectly fine however the live website would only render html. After rigorous debugging on develeoper tools I tracked it down to the file paths which were not loading the files correctly. This has been fixed and the live website is working fine.  
+
 ## Deployment
 
 ### Github Pages
@@ -209,6 +216,11 @@ The majority of the code was written by me, I have relied on external libraries 
 * Social Media Icons sourced from Font Awesome
 
 ## Acknowledgements 
+
+* CI Slack community for the help in trouble shooting.
+
+* Big thanks to my mentor Femi Medale in our meetings.
+
 
 
 
