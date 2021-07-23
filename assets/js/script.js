@@ -1,7 +1,7 @@
 // change navbar background
 
 function activeNav() {
-    let navbar = document.getElementById('navbarNav');
+    let navbar = document.getElementById('navbarScroll');
     let scrollValue = window.scrollY;
 
     if (scrollValue < 350) {

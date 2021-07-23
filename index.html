@@ -14,8 +14,8 @@
     <meta name="keywords"
         content="Thailand, Holiday, Temples, Temples in thailand, Beaches, Beaches in thailand, Activities in thailand, Elephants, Elephant Sanctuary, Tigers, Tiger Sanctuary, Bungee jumping Thailand, Krabi, Krabi beach, Emerald Buddah, Thailand tour">
     <title>Lost In Thailand | A Tour Guide</title>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-    <script type="text/javascript">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
         (function () {
             emailjs.init("user_Zy0xBkr1AacpwhqOvR9li");
             emailjs.send("service_xutkrvr","template_lgrecy3");
@@ -26,7 +26,7 @@
 <body>
     <!-- Navbar -->
 
-    <nav class="navbar fixed-top navbar-dark navbar-expand-md p-md-3 " id="navbarNav">
+    <nav class="navbar fixed-top navbar-dark navbar-expand-md p-md-3" id="navbarScroll">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -81,26 +81,24 @@
     <section id="places" class="container">
         <div class="catagory-option row">
             <div class="options temples col-md col-sm-12" onclick="showInfo(0, 'info')">
-                <h2>Temples</h1>
+                <h2>Temples</h2>
             </div>
             <div class="options beaches col-md col-sm-12">
                 <div onclick="showInfo(1)">
-                    <h2>Beaches</h1>
+                    <h2>Beaches</h2>
                 </div>
             </div>
             <div class="options activities col-md col-sm-12">
                 <div onclick="showInfo(2)">
-                    <h2>Activities</h1>
+                    <h2>Activities</h2>
                 </div>
             </div>
-        </div>
-
         </div>
 
         <div class="container">
             <div class="info row">
                 <div class="info-img col-md col-12">
-                    <img src="assets/images/truth.jpeg">
+                    <img src="assets/images/truth.jpeg" alt="An image of the Sanctuary of Truth in Pattaya Thailand">
                 </div>
                 <div class="col-md col-sm-12">
                     <h2>The Emerald Buddah</h2>
@@ -118,7 +116,7 @@
 
             <div class="info hide row">
                 <div class="info-img col-md col-12">
-                    <img src="assets/images/beach.jpeg">
+                    <img src="assets/images/beach.jpeg" alt="An image of Ao Nang Beach in Krabi Thailand">
                 </div>
                 <div class="col-md col-sm-12">
                     <h2>Krabi Beach</h2>
@@ -136,7 +134,7 @@
 
             <div class="info hide row">
                 <div class="info-img col-md-6 col-12">
-                    <img src="assets/images/elephant.jpeg">
+                    <img src="assets/images/elephant.jpeg" alt="An image of a mother elephant and a baby elephant eating">
                 </div>
                 <div class="col-md col-sm-12">
                     <h2>Elephant Sanctuary</h2>
@@ -191,7 +189,7 @@
                         <input type="text" id="inputFname" class="form-control my-text col-md-10" required="">
                     </div>
                     <div class="row">
-                        <label for="inputName" class="my-label col-md-4 col-sm-10">Last Name</label>
+                        <label for="inputLname" class="my-label col-md-4 col-sm-10">Last Name</label>
                         <input type="text" id="inputLname" class="form-control my-text col-md-10" required="">
                     </div>
                     <div class="row">

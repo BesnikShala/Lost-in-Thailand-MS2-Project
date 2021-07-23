@@ -94,6 +94,20 @@ The website aims to provide an insight to Thailand and the many places and activ
 
 ### Code Validation
 
+[W3C HTML Validator](https://validator.w3.org/) To validate HTML code.
+
+* Passed with no errors found.
+
+- <a href="" >HTML-Pass Test Screenshot</a>
+
+[W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) To validate HTML code.
+
+* Passed with no errors found.
+
+- <a href="" >CSS-Pass Test Screenshot</a>
+
+
+
 ### User Stories Testing 
 
 ### Functionality Testing
