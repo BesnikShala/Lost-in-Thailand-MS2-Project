@@ -4,6 +4,8 @@
 
 The website aims to provide an insight to Thailand and the many places and activities it has to offer. The website provides three category sections where users can find information based on their needs. It aims to appeal to tourists who are interested in cultural sights in temples of which there are hundreds of locations to choose from. The website offers the top locations which are based on personal experience of the country and sights as well as top rated locations on google. The second category is for those who are seeking the best beaches to visit if they are looking for sun sand and sea. This aims to provide the best locations for all types of people. Whether they are searching for a quiet place to relax or if they are looking for the best beach locations which offer party goers the best mix of a beach holdiay and nightlife. The third ctatagory provides an insight to activities which adds an experience to remember, the experiences include interaction with exotic animals such as elephants and tigers via sanctuaries which have been set up for rescued animals. This goes against any exploitation of animals and provides an experience which is truly humbling. In conclusion the website tries to provide information to all kinds of users what ever their need may be. The information is laid out with images and text and via map location, it gives the user access to then seek further information either via the contact form or via links to external sites. 
 
+[Live Website Here](https://besnikshala.github.io/Lost-in-Thailand-MS2-Project/)
+
 
 ## UX
 
