@@ -239,11 +239,6 @@ navbar-toggler span {
 }
 
 
-.my-form .form-input {
-    margin: 20px;
-    
-}
-
 .my-form .my-text {
     display: block;
     height: 40px;
@@ -262,6 +257,11 @@ navbar-toggler span {
     transition: transform 0.3s ease-in;
     color: white;
     text-transform: uppercase;
+    position: relative;
+    left: 40px;
+    top: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;  
 }
 
 .form-intro {
