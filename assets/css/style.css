@@ -103,21 +103,21 @@ navbar-toggler span {
 }
 
 .temples {
-    background-image:url(/assets/images/liberty-square.jpg);
+    background-image:url(../images/liberty-square.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 
 .beaches {
-    background-image:url(/assets/images/krabi-beach.jpeg);
+    background-image:url(../images/beach.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .activities {
-    background-image:url(/assets/images/elephant-walking-road.jpg);
+    background-image:url(../images/elephant-walking-road.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
