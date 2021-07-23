@@ -59,11 +59,11 @@ The website aims to provide an insight to Thailand and the many places and activ
 
 * The site includes a footer with contact information and also clickable links to social media. 
 
-### Features to Implement
-
 *  The site has a contact form which is linked to an email API, this will allow users to be able to successfully fill out the contact form and send it to the site owner. The API will then send the relevant information back to the owner for them to process. 
 
-* Weather API to show the weather in Thailand.
+### Features to Implement
+
+* Weather API to show the weather in Thailand. 
 
 * Ratings API to show ratings for certain place or activity. 
 
@@ -106,15 +106,49 @@ The website aims to provide an insight to Thailand and the many places and activ
 
 - <a href="https://github.com/BesnikShala/Lost-in-Thailand-MS2-Project/blob/main/assets/images/cssValidator.jpeg" >CSS-Pass Test Screenshot</a>
 
+[JSHint] To validate JavaScript code.
+
+- No errors found.
+
 
 ### User Stories Testing 
 * As a first-time visitor to the website. I want to understand the Website and what it offers.
-    * When viewing the webpage both on desktop or mobile version the user can clearly view the information displayed. The navbar is sleek and visible at all times. It directs the user to the desired section on the same page for simplicity and loading times. The user can return to the top page at any point. The information is easy to read and clearly laid out. Images have alt attributes which display information if the images fail to load. Please see screenshot link below which will direct you to a new page to view the screenshots. 
-    -   <a href="">Desktop Screenshot 1</a>
+
+* I would like to be able to navigate clearly through the website to find exactly what I am looking for.
+
+    * When viewing the webpage both on desktop or mobile version the user can clearly view the information displayed. The navbar is sleek and visible at all times. It directs the user to the desired section on the same page for simplicity and loading times. The user can return to the top page at any point. The information is easy to read and clearly laid out. Images have alt attributes which display information if the images fail to load. 
+
+* I want to be able to have the choice of looking for information, such as recommendations and locations.
+
+    * The user is also to see the three sections very clearly. These sections are large and clearly labelled. A user may not have need for all three sections as they may only want to look at information on beaches, they are able to click on the beaches section and read the information and recommendation. They can then browse the map to view the beach locations and find out more information via the info windows and also follow an external link to view additional information. 
+
+* I want to be able to get in touch with a member to find out more information or enquire on more recommendations.
+
+    * The contact section provides both information for the user to use directly via contact details such as contact number and email. The from also allows the user to fill out the information and be contacted in return with specific information or request.
+
+* Be able to get in touch and be given a package deal based on contact form information received.
+
+    * Booking section not implemented after meetings with my mentor, however the website allows for this scope. The users information would be sent directly to site owner via sendEmail.js. This means the leads details are there along with the request, they can then be contact either directly by phone or via email. 
 
 ### Functionality Testing
 
+* Chrome Developer tools in browser were used to check responsiveness and functionality of the site. The scores were effected by large images and also two external links which are not trusted, however they were recommended by google maps API documentation page.
+
+* Lighthouse Scores:
+
+    - [Mobile Screenshot]()
+
+    - [Desktop Screenshot]()
+
 ### Compatibility Testing
+
+The web page has been tested on Chrome Developer tools on the device tool bar. it was tested at various sizes and devices everything works well without any overlapping or hidden content. 
+
+Tested on both Chrome and Safari web browsers.
+
+* Tested on Macbook Pro real device. No issues found.
+
+* Tested on mobile devices, Samsung Gallaxy S20+, Iphone X and Samsung S10+. No issues found. 
 
 ### Known Bugs and Problems
 
@@ -122,13 +156,57 @@ The website aims to provide an insight to Thailand and the many places and activ
 
 ### Github Pages
 
-### Github Clone 
+This project was written on an online IDE called Gitpod and was deployed via GitHub Pages, please see the following steps below.
+
+* once logged into GitHub, locate the correct GitHub Repository.
+
+* Under the repository navbar there is a navlink on the right hand side called 'Settings' click on this to access more options.
+
+* On the left hand side you will see more navigation links. You need to click on the second to last tab which is named 'Pages'.
+
+* Once you have clicked on Pages, you will be directed to GitHub Pages. here you can see the 'Source" which is set to 'None'. Click and choose 'Branch: master'.
+
+* The folder should automatically come up as /(root), once this is done you can click on save and the site will be published.
+
+* Either click on the link provided or copy and paste it into the browser to take you to the site. If you run into any issues please make sure you have one of your pages name index.html.
+
+Any changes made to the site that are pushed to GitHub will be automatically changed. You may need to refresh your browser cache if changes do not display.
+
+### Github Clone
+
+To Clone this project you can do so via the GitHub Repository.
+
+* Firstly log into GitHub and locate the GitHub Repository.
+
+* Next to the green Gitpod button there is a 'Code' button, click on this to open a dropdown menu named Clone. Here you can see the site 'URL' which you can copy.
+
+* Once you have copied the link, you can then paste the url into the editor with the following command git clone. e.g git clone https://besnikshala.github.io/Lost-in-Thailand-MS2-Project/
 
 ## Credits
 
 ### Content
 
+The majority of the code was written by me, I have relied on external libraries for functionality and structure. However the code was styled and changed by me.
+
+* EmailJS - documentation code used and adapted to suit my needs.
+
+* Google Maps API - documentation code used and adapted to make my own and add customisation. 
+
+* Bootstrap - code used mainly for navbar and form, both copied code was then edited to make my own. 
+
+* Font Awesome - Brief code used for icons which where then edited and styled.
+
+* W3SCHOOLS - Found useful tips and code to help towards looping my hide function for places and also looping through marker function for maps.
+
 ### Media
+
+* Small images in Places tab sourced from Freepik.com
+
+* All large images sourced by my own gallery and trip to Thailand. 
+
+* Map Icons sourced from Google Maps API Documentation
+
+* Social Media Icons sourced from Font Awesome
 
 ## Acknowledgements 
 

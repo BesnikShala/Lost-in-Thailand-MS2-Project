@@ -362,9 +362,19 @@ navbar-toggler span {
         margin-top: 100px;
         text-align: center;
         position: relative;
+        right: 0px;
         background: rgba(0, 0, 0, 0.4);
         height: 500px;
 
+    }
+
+    .my-form {
+        background: rgba(0, 0, 0, 0.4);
+        margin-top: 200px;
+        box-shadow: 1px 1px 30px 15px black;
+        align-content: center;
+        justify-content: center;
+        position: relative;
     }
 
     .my-form .my-text {
@@ -388,7 +398,7 @@ navbar-toggler span {
     }
 
     .my-footer {
-        height: 300px;
+        height: 100%;
     }
 
     .social {

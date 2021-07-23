@@ -37,11 +37,11 @@ function initMap() {
 
     // set custom markers for the different sections    
 
-    const templeIcon = "http://maps.google.com/mapfiles/kml/shapes/church.png"
+    const templeIcon = "https://www.shareicon.net/data/48x48/2016/10/07/840234_building_512x512.png"
 
     const beachIcon = "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
 
-    const activityIcon = "http://maps.google.com/mapfiles/kml/shapes/ranger_station.png"
+    const activityIcon = "https://www.shareicon.net/data/48x48/2016/12/21/865492_media_512x512.png"
 
     // marker points with content
 
