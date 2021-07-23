@@ -51,19 +51,31 @@ The website aims to provide an insight to Thailand and the many places and activ
 
 * The brand image which is a three letter logo will be also linked to the top of the page for easier navigation to save time on scrolling.
 
+    <img src="./assets/images/nav.jpeg">
+
 * The site includes three main sections under the nav link places. Here the user will see three large buttons/tabs clearly marked and outlined for the user to navigate through the different sections.
 
 * The user is able to switch between three different categories and this will replace the content under each category rather than filling the page with too much text and images. The user can easily navigate the three catagories at any point.
 
-* The site has a contact form for users to submit message requests for further information.
+    <img src="./assets/images/places.jpeg">
 
 * The site has a tab list that the user will be able to select different sections via the links which will replace the current content and display the content they have selected.
 
+ <img info>
+
 * The site includes a maps API which will show the user the location of the place they are looking at. They will be able to use this to navigate and plan their holidays. 
+
+    <img src="./assets/images/maps.jpeg">
 
 * The site includes a footer with contact information and also clickable links to social media. 
 
+    <img src="./assets/images/social.jpeg">
+
+* The site has a contact form for users to submit message requests for further information.
+
 *  The site has a contact form which is linked to an email API, this will allow users to be able to successfully fill out the contact form and send it to the site owner. The API will then send the relevant information back to the owner for them to process. 
+
+    <img src="./assets/images/contact.jpeg">
 
 ### Features to Implement
 

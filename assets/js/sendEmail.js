@@ -1,3 +1,7 @@
+(function () {
+    emailjs.init("user_Zy0xBkr1AacpwhqOvR9li");
+})();
+
 function sendEmail(myform) {
     emailjs.send("service_xutkrvr", "template_lgrecy3", {
         "from_inputFname": myform.inputFname.value,

@@ -24,7 +24,7 @@ ul.navbar-nav {
 }
 
 .banner-image {
-    background-image:url('../images/fishtale-boat.jpeg');
+    background-image:url('../images/boaty.jpeg');
     background-size: cover;
 }
 
@@ -121,7 +121,7 @@ navbar-toggler span {
     background-image:url(../images/beach.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -500px;
+
 }
 
 .activities {
@@ -159,7 +159,7 @@ navbar-toggler span {
 
 .info-text {
     position: relative;
-    right: 76px;
+    /* right: 76px; */
     text-align: center;
 }
 
@@ -349,7 +349,7 @@ navbar-toggler span {
 
 /* -- Tablet Screen --  */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .beaches {
         background-image: url(../images/beach.jpeg);
         background-size: cover;
