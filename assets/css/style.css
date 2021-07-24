@@ -159,8 +159,8 @@ navbar-toggler span {
 
 .info-text {
     position: relative;
-    /* right: 76px; */
     text-align: center;
+    padding: 0 30px;
 }
 
  .info-img img {
@@ -192,6 +192,7 @@ navbar-toggler span {
     font-weight: 400;
     background-color: rgba(144, 206, 240, 0.6);
     margin: 0 auto;
+    border-radius: 7%;
 }
 
 #contentHeader {
@@ -199,12 +200,12 @@ navbar-toggler span {
 }
 .contentTitle {
     text-align: center;
-    align-content: center;
-    justify-content: center;
+    letter-spacing: 1px;
 }
 
 #mainContent {
     text-align: center;
+    letter-spacing: 1px;
 }
 /* ---- Contact ---- */
 
@@ -287,6 +288,7 @@ navbar-toggler span {
     line-height: 30px;
     cursor: text;
     transition: transform 0.3s ease-in;
+    padding-left: 35px;
 }
 
 .form-intro {
@@ -302,7 +304,7 @@ navbar-toggler span {
 }
 
 .modal{
-    display: flex;
+    display: none;
     position: relative;
     z-index: 1;
     overflow: auto;
@@ -381,7 +383,7 @@ navbar-toggler span {
 
 /* -- Tablet Screen --  */
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     .beaches {
         background-image: url(../images/beach.jpeg);
         background-size: cover;
@@ -427,9 +429,9 @@ navbar-toggler span {
         text-align: center;
     }
      .info-img {
-         margin: 0 auto;
-         position: relative;
-         right: 50px;
+        margin: 0 auto;
+        position: relative;
+        
      }
 }
 

@@ -2,7 +2,7 @@
 
 function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 8,
+        zoom: 6,
         center: {
             lat: 13.7563,
             lng: 100.5018
@@ -34,7 +34,7 @@ function initMap() {
                 '<b>Mai Deang</b>, <b>Mai Takien</b> and <b>Mai Panchaat</b>. This is all hand carved and there is not one inch of the' +
                 'temple which has not been carved and detailed. Building started in 1981 and still ongoing, the wood is replaced once it' +
                 'gets weathered and damaged over time. It is continupusly replensihed and you can see the carving on site and even join in. </p>' +
-                '<p>See website for more details : <a href="" target="_blank">Sanctuary of Truth</a></p>' +
+                '<p>See website for more details : <a href="https://www.lonelyplanet.com/thailand/chonburi-province/pattaya/attractions/sanctuary-of-truth/a/poi-sig/481140/357676" target="_blank">Sanctuary of Truth</a></p>' +
                 '</div>' +
                 '</div>',
             iconImage: templeIcon,

@@ -22,11 +22,11 @@ function sendEmail(myform) {
     );
     return false;
 }
-
+ // Reset form after submit
 function refresh() {
     document.getElementById("myform").reset();
 }
-
+  // pop up modal on submit
 function startModal() {
     const modal = document.getElementById("mymodal");
 
