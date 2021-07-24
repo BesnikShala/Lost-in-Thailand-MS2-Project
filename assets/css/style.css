@@ -196,9 +196,7 @@ navbar-toggler span {
 
 #contentHeader {
     align-content: center;
-
 }
-
 .contentTitle {
     text-align: center;
     align-content: center;
@@ -207,8 +205,6 @@ navbar-toggler span {
 
 #mainContent {
     text-align: center;
-    
-
 }
 /* ---- Contact ---- */
 
@@ -232,7 +228,6 @@ navbar-toggler span {
     height: 500px;
 
 }
-
 .contact-details {
     font-size: 20px;
 }
@@ -242,7 +237,6 @@ navbar-toggler span {
     color: white;
     margin: 10px;
 }
-
 .my-form {
     background: rgba(0, 0, 0, 0.4);
     margin-top: 100px;
@@ -251,7 +245,6 @@ navbar-toggler span {
     justify-content: center;
     position: relative;
 }
-
 
 .my-form .my-text {
     display: block;
@@ -307,6 +300,45 @@ navbar-toggler span {
     color: white;
     width: -webkit-fill-available;
 }
+
+.modal{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.show-modal {
+    display: flex;
+} 
+
+.modal-content {
+    background-color: rgba(118, 189, 228, 0.9);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.modal-content h3 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: end;
+    font-size: 33px;
+}
+
+.close:hover {
+    color: rgba(255, 95, 55, 0.863);
+    
+}
+
 
 /* --- Footer Section ---  */
 
@@ -394,6 +426,11 @@ navbar-toggler span {
         right: 0px;
         text-align: center;
     }
+     .info-img {
+         margin: 0 auto;
+         position: relative;
+         right: 50px;
+     }
 }
 
 /* -- Mobile Screen --  */
@@ -416,6 +453,7 @@ navbar-toggler span {
 
     .info-img {
         margin: 0 auto;
+        position: relative;
 
     }
 

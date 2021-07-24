@@ -12,6 +12,7 @@ function sendEmail(myform) {
     })
     .then(
         function(response) {
+            startModal();
             refresh();
             console.log("Email Successfully Sent", response);
         },
@@ -25,3 +26,18 @@ function sendEmail(myform) {
 function refresh() {
     document.getElementById("myform").reset();
 }
+
+function startModal() {
+    const modal = document.getElementById("mymodal");
+
+     modal.classList.add("show-modal");
+
+    const span = document.getElementsByClassName("close")[0];
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+   
+}
+
