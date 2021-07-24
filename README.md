@@ -77,6 +77,10 @@ The website aims to provide an insight to Thailand and the many places and activ
 
     <img src="./assets/images/contact.jpeg">
 
+* The site has a pop-up modal function within the contact form. When the user has submitted their information the information will refresh and they will see a message appear confirming their message has been sent. 
+
+    <img src="./assets/images/modal.jpeg">
+
 ### Features to Implement
 
 * Weather API to show the weather in Thailand. 
@@ -155,9 +159,9 @@ The website aims to provide an insight to Thailand and the many places and activ
 
 * Lighthouse Scores:
 
-    - [Mobile Screenshot]()
+    - [Mobile Screenshot](https://github.com/BesnikShala/Lost-in-Thailand-MS2-Project/blob/main/assets/images/mobileScrnshot.jpeg)
 
-    - [Desktop Screenshot]()
+    - [Desktop Screenshot](https://github.com/BesnikShala/Lost-in-Thailand-MS2-Project/blob/main/assets/images/desktopScrnshot.jpeg)
 
 ### Compatibility Testing
 
