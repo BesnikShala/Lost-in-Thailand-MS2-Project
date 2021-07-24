@@ -379,6 +379,19 @@ navbar-toggler span {
     font-weight: 300;
 }
 
+/* -- Error 404 --  */
+
+.error-404 {
+    max-width: 800px;
+}
+
+.error-img {
+    background-image: url(../images/404.jpeg);
+    background-position: center;     
+    background-repeat: no-repeat;
+
+}
+
 /* ---- Media Query ---- */
 
 /* -- Tablet Screen --  */
