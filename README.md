@@ -175,7 +175,9 @@ Tested on both Chrome and Safari web browsers.
 
 ### Known Bugs and Problems
 
-* Live deployment problem occured with regards to the rendering of the css and various images. The browser preview worked perfectly fine however the live website would only render html. After rigorous debugging on develeoper tools I tracked it down to the file paths which were not loading the files correctly. This has been fixed and the live website is working fine.  
+* Live deployment problem occured with regards to the rendering of the css and various images. The browser preview worked perfectly fine however the live website would only render html. After rigorous debugging on develeoper tools I tracked it down to the file paths which were not loading the files correctly. This has been fixed and the live website is working fine. 
+
+* A known issue currently the quota for the emailJS has been exceeded and the email function is not sending and the error is logging to the console. The quota will be refreshed on the 22nd of August. 
 
 ## Deployment
 
